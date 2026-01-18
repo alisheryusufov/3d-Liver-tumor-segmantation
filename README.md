@@ -1,6 +1,6 @@
 # 3D Liver Tumor Segmentation (UNet + TorchIO + PyTorch Lightning)
 
-![Result](result/result_evaluation.gif)
+![Result](result/result%20evaluation.gif)
 
 3D liver + tumor segmentation from CT volumes using a 3D U-Net trained with **Cross-Entropy + Dice Loss**, patch-based sampling (TorchIO Queue), and PyTorch Lightning.
 
