@@ -11,7 +11,7 @@ This project uses the **Medical Segmentation Decathlon (MSD)** dataset:
 - **Task03_Liver** (CT volumes + liver/tumor labels)
 - Download from: **medicaldecathlon.com**
 
-- ## Method
+## Method
 
 - **Model:** 3D UNet (see `model.py`)
 - **Loss:** `CrossEntropyLoss(weight=[1,1,3]) + DiceLoss`
